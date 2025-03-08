@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { styles } from './style';
 
 export function Groups() {
   return (
@@ -8,11 +9,4 @@ export function Groups() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
