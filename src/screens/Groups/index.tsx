@@ -5,6 +5,7 @@ import { Highlight } from '@components/Highlight';
 import { GroupCard } from '@components/GroupCard';
 import { useState } from 'react';
 import { ListEmpty } from '@components/ListEmpty';
+import { Button } from '@components/Button';
 
 export function Groups() {
 
@@ -30,7 +31,10 @@ export function Groups() {
           />
          }
       />
-      
+      <Button 
+          title="Adicionar"
+          type='SECONDARY'
+      />
     </Container>
   );
 }
